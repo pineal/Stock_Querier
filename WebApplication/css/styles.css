@@ -1,0 +1,105 @@
+.container {
+    padding-top: 20px;
+}
+
+body {
+    background-color:floralwhite;
+}
+
+#icons .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #fff
+}
+
+#icons .btn-default.focus, .btn-default:focus {
+    color: #333;
+    background-color: #fff;
+    border-color: #8c8c8c
+}
+
+#icons .btn-default:hover {
+    color: #333;
+    background-color: #fff;
+    border-color: #adadad
+}
+
+#icons .btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #adadad
+}
+
+#icons .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover,
+.btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover,
+.open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default:hover {
+    color: #333;
+    background-color: #fff;
+    border-color: #8c8c8c
+}
+
+
+#search_row {
+    margin-bottom: 10px;
+
+}
+#invalid_quote{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: block;
+    visibility: hidden;
+}
+
+#invalid_quote span{    
+    vertical-align: middle;
+}
+
+#icons {
+    padding-bottom: 10px;
+}
+
+#fav_list_icons{
+    padding-right: 15px;
+}
+
+
+#fav_icon {
+    background: white;
+}
+
+#fav_icon .hover{
+    background: white;
+}
+
+#fav_icon .active{
+    background: white;
+}
+
+
+.ui-autocomplete {
+    position: absolute;
+    z-index: 1000;
+    cursor: default;
+    padding: 0;
+    margin-top: 2px;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.ui-autocomplete > li {
+  padding: 3px 20px;
+}
+.ui-autocomplete > li.ui-state-focus {
+  background-color: #DDD;
+}
+.ui-helper-hidden-accessible {
+  display: none;
+}
+

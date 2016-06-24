@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'Stock_Viewer' do
+pod 'AFNetworking', '~> 2.6'
+pod 'ORStackView', '~> 3.0'
+pod 'SwiftyJSON', '~> 2.3'
+pod 'Toast-Swift', '~> 1.3.0'
+end
